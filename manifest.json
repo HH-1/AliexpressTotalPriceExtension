@@ -1,0 +1,11 @@
+ {
+   "name": "TotalPriceAli",
+   "version": "0.1",
+   "author": "HH-1",
+   "description": "A tool to compare prices including shipping on Aliexpress website",
+   "content_scripts": [{
+     "js": ["content.js"],
+     "matches": ["https://*.aliexpress.com/*"]
+     }],
+   "manifest_version": 2
+ }
